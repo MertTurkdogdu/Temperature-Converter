@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="boxCF">
+    <div class="celcius">
+      <b>Celcius</b>
+      <input id="getCelcius" type="text">
+      <button onclick="convertToFahrenheith(document.getElementById('getCelcius').value)" >Convert to F</button>
+    </div>
+  
+  
+    <div class="fahren">
+      <b>Fahrenheith</b>
+      <input id="getFahrenheith" type="text">
+      <button onclick="convertToCelcius(document.getElementById('getFahrenheith').value)">Convert to C</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
